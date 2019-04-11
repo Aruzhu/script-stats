@@ -51,7 +51,6 @@ while True:
 		print line+"	"+str(precent[loopcount])
 		users.append(line[0:len(line)-1])
 		outstr += "--"+line[0:len(line)-1]+"--"+str(precent[loopcount])
-		print users
-print out.write(outstr)
+out.write(outstr+'\n')
 
 
